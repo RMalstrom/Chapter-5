@@ -6,6 +6,6 @@ This program is the bare minimum needed to solve Problem 13 on Page 103.
 
 Date last modified: 9.26.2024
 """
-import random
+import random # Import the random library
 
 print(f'Your first dice is: {random.randint(1,6)} and your second dice is: {random.randint(1,6)}.')
