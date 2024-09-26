@@ -6,5 +6,4 @@ Date last modified: 9.26.2024
 """
 import random # Import the library to generate random numbers
 
-userTemp = int(input("Please enter the temperature you would like to convert to Celsius: "))
-print(f'Your converted temperature is {(5 / 9) * (userTemp - 32)} Celsius')
+print(f'Your converted temperature is {(5 / 9) * (int(input("Enter the temperature you would like to convert (In Fahrenheit): ")) - 32)} Celsius')
